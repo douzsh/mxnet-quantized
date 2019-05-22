@@ -1,5 +1,6 @@
 # mxnet-quantized
-mxnet quantized models and related works
+mxnet based GluonCV quantized models with binary,ternary and INT8 mode.
+Binary models available now!
 
 # Usage:
 python score_imagenet.py --num-gpus 1 --use-rec --model mobilenet0.5 --params models/0.3443-imagenet-qmobilenet0.5-best.params --normalize-input
